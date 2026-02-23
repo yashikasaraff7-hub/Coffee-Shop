@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yashika's Coffee Shop</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background: #0700027e;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            color: #d6c9c1;
+
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #e5dbdbf9;
+            font-weight: bold;
+        }
+
+        /* Banner */
+        .banner {
+            position: relative;
+        }
+
+        .banner img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .banner-text {
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+
+        
+
+        .banner-text p {
+            margin: 10px 0;
+            font-style: italic;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: #5a3e2b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #3e2a1e;
+        }
+
+        /* Info Section */
+        .info {
+            display: flex;
+            gap: 20px;
+            padding: 40px;
+            background: #c09267;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            width: 50%;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #5a3e2b;
+        }
+
+        .special ul {
+            list-style: none;
+        }
+
+        .special li {
+            margin: 8px 0;
+        }
+
+        /* Menu */
+        .menu {
+            padding: 40px;
+            background: #824e34;
+        }
+
+        .menu h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #270f02;
+        }
+
+        .menu-items {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .menu-card {
+            background: #dfd9d5;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .menu-card h3 {
+            margin-bottom: 10px;
+            color: #5a3e2b;
+        }
+
+        .menu-card ul {
+            list-style: none;
+        }
+
+        .menu-card li {
+            margin: 8px 0;
+        }
+
+        /* Footer */
+        footer {
+            background: #5a3e2b;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>☕ Coffee Shop</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <img src="coffee .jpg" alt="Coffee Banner">
+        <div class="banner-text">
+            
+            <p>Smooth and mellow – fresh roasted coffee beans</p>
+            <a href="https://www.cafecoffeeday.com/" class="btn" target="_blank">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About & Specialties -->
+    <section class="info">
+        <div class="card about">
+            <h3>About Us</h3>
+            <p>
+                We are a cozy coffee shop dedicated to serving fresh,
+                delicious coffee and pasteries. Come relax and enjoy.
+                And the vibe is so asthetic.
+        
+            </p>
+        </div>
+
+        <div class="card special">
+            <h3>Our Specialties</h3>
+            <ul>
+                <li>⭐ Fresh Brewed Coffee</li>
+                <li>☕ Espresso Drinks</li>
+                <li>🥐 Homemade Pastries</li>
+                <li>Hot chocolate</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu">
+        <h2>Our Menu</h2>
+
+        <div class="menu-items">
+            <div class="menu-card">
+                <h3>☕ Coffee</h3>
+                <ul>
+                    <li>Latte</li>
+                    <li>Cappuccino</li>
+                    <li>Americano</li>
+                </ul>
+            </div>
+
+            <div class="menu-card">
+                <h3>🍵Hot Chocolate</h3>
+                <ul>
+                    <li>Explorer</li>
+                    <li>Lighthouse</li>
+                    <li>Quiet Cove</li>
+                </ul>
+            </div>
+
+            <div class="menu-card">
+                <h3>🥐 Pastries</h3>
+                <ul>
+                    <li>Croissant</li>
+                    <li>Fruit Tarts</li>
+                    <li>Red Velvet Pastries</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        ©️ 2026 Coffee Shop. All rights reserved.
+    </footer>
+
+</body>
+</html>
